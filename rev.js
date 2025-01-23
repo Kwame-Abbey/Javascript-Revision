@@ -1,5 +1,5 @@
 #!/usr/bin/node
 
-greeter = "say hello";
-console.log(greeter);
-var greeter;
+for (let i = 1; i <= 7; i++) {
+    console.log('#'.repeat(i))
+}
